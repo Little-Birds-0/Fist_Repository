@@ -21,9 +21,10 @@ jobs:
       - name: Clone my github 
         run: |
           git clone https://github.com/Little-Birds-0/Fist_Repository.git
-          cd Fist_Repository
+          
       - name: Creat docker image
         run: |
+          cd Fist_Repository
           sh bash.sh
 
 
